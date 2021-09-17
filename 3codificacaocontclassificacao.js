@@ -2,8 +2,9 @@
 var numAlunos = 40
 
 for (let numAlunos = 0; numAlunos<=40; numAlunos++){
-    if(numAlunos<=9 ) numAlunos = '0'+numAlunos;
-    if (numAlunos === 0){
+    if(numAlunos <=9 ) numAlunos = '0'+numAlunos;{
+
+    }if (numAlunos == 0){
 
         console.log('o número é zero');
 
