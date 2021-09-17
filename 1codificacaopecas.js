@@ -6,7 +6,7 @@ var pesoPeça = 180;
 var pesoMinimo = 100;
 console.log("[" + pesoPeça + "]")
 console.log('___________________________________')
-    if (pesoPeça >= pesoMinimo ){
+    if (pesoPeça > pesoMinimo ){
         console.log(pesoPeça +' gramas:' + ' peça cadastrada');
     }else{
 
@@ -30,7 +30,7 @@ console.log(tamanhoCaracter);
         let listaDePecas = ["cone", "parafuso", "Imã", "arruela",];
         let quantidadeDePecas = listaDePecas.length;
             
-            if (quantidadeDePecas < 10) {
+            if (quantidadeDePecas < 11) {
         
             listaDePecas.push(nomePeca);
             console.log('___________________________________')   
@@ -45,6 +45,13 @@ console.log(tamanhoCaracter);
         
 
     }
+
+
+
+
+
+   
+
 
 
 
