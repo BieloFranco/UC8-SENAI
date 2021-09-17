@@ -3,7 +3,7 @@
 // funcao de data atual
 function dataAtual(data = new Date()){ //se a data não for alterada é data atual
     var dia = data.getDate();//se a data não for alterada é data atual
-    var mes = data.getMonth();//se o mes não for alterada é o atual
+    var mes = data.getMonth()+1;//se o mes não for alterada é o atual
     var ano = data.getFullYear();//se o ano não for alterada é o atual
 
     if(dia.toString().length == 1) dia = '0'+dia;//conta os caracteres pra adicionar o 0
@@ -14,7 +14,7 @@ function dataAtual(data = new Date()){ //se a data não for alterada é data atu
 console.log(dataAtual());// CONSULTA DATA ATUAL
 
 // funcao de data evento
-function dataEvento(data = new Date(2021,09,10,18,00,00,000)){ //evento com data para dia 10/09/2021 as 18hrs
+function dataEvento(data = new Date(2021,10,10,18,00,00,000)){ //evento com data para dia 10/09/2021 as 18hrs
     var dia = data.getDate();//se a data não for alterada é data atual
     var mes = data.getMonth();//se o mes não for alterada é o atual
     var ano = data.getFullYear();//se o ano não for alterada é o atual
@@ -55,6 +55,10 @@ console.log(verificarIdade);
 console.log('----------------------------------------------');
 
 console.log("cadastro efetuado")
+
+
+
+
 
 
 
